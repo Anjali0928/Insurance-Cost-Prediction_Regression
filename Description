@@ -1,0 +1,10 @@
+Insurance Cost Prediction
+
+Healthcare providers and insurance companies face a critical challenge in accurately estimating the medical costs of individuals. Insurance charges depend on several demographic and lifestyle factors such as age, gender, body mass index (BMI), number of children, smoking habits, and region.
+The goal of this project is to develop predictive models that can accurately estimate individual medical insurance charges based on available customer attributes. By leveraging regression techniques such as Linear Regression, Ridge Regression, and Lasso Regression, the project aims to:
+
+Identify key factors that influence insurance charges
+Quantify the relationship between predictors (age, BMI, smoker status, etc.) and medical costs
+Compare regularized models (Ridge, Lasso) against simple linear regression to handle multicollinearity and improve generalization
+Provide a robust, interpretable model that can guide pricing strategies and risk assessment for insurers
+Success Criteria: Model performance will be evaluated using Root Mean Squared Error (RMSE) and R² score on unseen test data. An effective model should achieve low RMSE (predictions close to actual charges) and high R² (explaining most of the variance in charges).
